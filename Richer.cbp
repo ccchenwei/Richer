@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Richer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Richer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Richer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="block.cpp" />
+		<Unit filename="block.h" />
+		<Unit filename="blockfactory.cpp" />
+		<Unit filename="blockfactory.h" />
+		<Unit filename="city.cpp" />
+		<Unit filename="city.h" />
+		<Unit filename="citybuilder.cpp" />
+		<Unit filename="citybuilder.h" />
+		<Unit filename="citydirector.cpp" />
+		<Unit filename="citydirector.h" />
+		<Unit filename="docs/大富翁练习.docx" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="global.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="manager.cpp" />
+		<Unit filename="manager.h" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="menufactory.cpp" />
+		<Unit filename="menufactory.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

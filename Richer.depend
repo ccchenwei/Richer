@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1511254265 source:e:\workspace\codeblocksapps\richer\main.cpp
+	<iostream>
+	"game.h"
+	"manager.h"
+
+1511254265 e:\workspace\codeblocksapps\richer\game.h
+
+1511258469 source:e:\workspace\codeblocksapps\richer\game.cpp
+	"global.h"
+	"game.h"
+	"menu.h"
+	"manager.h"
+	"city.h"
+	"player.h"
+
+1511254265 e:\workspace\codeblocksapps\richer\menu.h
+
+1511254265 e:\workspace\codeblocksapps\richer\global.h
+
+1511254265 source:e:\workspace\codeblocksapps\richer\menu.cpp
+	<iostream>
+	"global.h"
+	"menu.h"
+	"game.h"
+
+1511254265 source:e:\workspace\codeblocksapps\richer\block.cpp
+	"block.h"
+
+1511254265 e:\workspace\codeblocksapps\richer\block.h
+	"global.h"
+
+1511258549 source:e:\workspace\codeblocksapps\richer\city.cpp
+	<iostream>
+	"global.h"
+	"city.h"
+	"block.h"
+	"player.h"
+
+1511258070 e:\workspace\codeblocksapps\richer\city.h
+	<vector>
+
+1511271382 e:\workspace\codeblocksapps\richer\player.h
+	"global.h"
+
+1511254265 source:e:\workspace\codeblocksapps\richer\player.cpp
+	"player.h"
+	"game.h"
+	"block.h"
+
+1510989121 e:\workspace\codeblocksapps\richer\menumgr.h
+	"global.h"
+
+1511254265 source:e:\workspace\codeblocksapps\richer\menufactory.cpp
+	"global.h"
+	"menu.h"
+	"menufactory.h"
+
+1511254265 e:\workspace\codeblocksapps\richer\menufactory.h
+
+1510989366 source:e:\workspace\codeblocksapps\richer\menumgr.cpp
+	"menu.h"
+	"menumgr.h"
+	"menufactory.h"
+
+1511254265 source:e:\workspace\codeblocksapps\richer\blockfactory.cpp
+	"global.h"
+	"block.h"
+	"blockfactory.h"
+
+1511254265 e:\workspace\codeblocksapps\richer\blockfactory.h
+
+1511260034 e:\workspace\codeblocksapps\richer\manager.h
+	"global.h"
+
+1511260266 source:e:\workspace\codeblocksapps\richer\manager.cpp
+	"manager.h"
+	"menu.h"
+	"menufactory.h"
+	"block.h"
+	"blockfactory.h"
+	"citybuilder.h"
+	"citydirector.h"
+
+1511259492 source:e:\workspace\codeblocksapps\richer\citybuilder.cpp
+	"manager.h"
+	"block.h"
+	"city.h"
+	"citybuilder.h"
+
+1511260078 e:\workspace\codeblocksapps\richer\citybuilder.h
+
+1511260277 source:e:\workspace\codeblocksapps\richer\citydirector.cpp
+	"global.h"
+	"citybuilder.h"
+	"citydirector.h"
+
+1511259388 e:\workspace\codeblocksapps\richer\citydirector.h
+
